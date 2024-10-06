@@ -2,9 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
-    <RootNamespace>Internet_Store_Engine.BusinessLogicDomain</RootNamespace>
+    <RootNamespace>InternetStoreEngine.DataAccessLayer</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+  </ItemGroup>
 
 </Project>
