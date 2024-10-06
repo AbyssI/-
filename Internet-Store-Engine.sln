@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InternetStoreEngine.UI", "I
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InternetStoreEngine.BusinessLogicDomain", "Internet-Store-Engine.BusinessLogicDomain\InternetStoreEngine.BusinessLogicDomain.csproj", "{0796E870-FCC5-42C9-86E8-A83778642E74}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Internet-Store-Engine.DataAccessLayer", "Internet-Store-Engine.DataAccessLayer\Internet-Store-Engine.DataAccessLayer.csproj", "{C1F8BB5B-23EA-4F8F-81DD-BB33D2337E47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InternetStoreEngine.DataAccessLayer", "Internet-Store-Engine.DataAccessLayer\InternetStoreEngine.DataAccessLayer.csproj", "{C1F8BB5B-23EA-4F8F-81DD-BB33D2337E47}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
