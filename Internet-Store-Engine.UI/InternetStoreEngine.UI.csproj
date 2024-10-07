@@ -8,6 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="NLog.config" />
+  </ItemGroup>
+
+  <ItemGroup>
     <_WebToolingArtifacts Remove="Properties\serviceDependencies.json" />
     <_WebToolingArtifacts Remove="Properties\serviceDependencies.local.json" />
   </ItemGroup>
@@ -19,6 +23,8 @@
 
   <ItemGroup>
     <None Include="Areas\Identity\Pages\_ViewStart.cshtml" />
+    <None Include="C:\Users\Yaros\Desktop\Навчання\Аналіз вимог до програмного забезпечення\Командний проект\Internet-Store-Engine\Internet-Store-Engine.UI\.editorconfig" />
+    <None Include="NLog.config" />
     <None Include="Properties\serviceDependencies.local.json.user" />
     <None Include="Views\Home\Index.cshtml" />
     <None Include="Views\Home\Privacy.cshtml" />
@@ -44,6 +50,17 @@
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.1" />
     <PackageReference Include="Microsoft.Extensions.Diagnostics.HealthChecks" Version="8.0.8" />
     <PackageReference Include="Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore" Version="8.0.8" />
+    <PackageReference Include="NLog" Version="5.3.4" />
+    <PackageReference Include="NLog.Extensions.Logging" Version="5.3.14" />
+    <PackageReference Include="NLog.Web.AspNetCore" Version="5.3.14" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EditorConfigFiles Remove="C:\Users\Yaros\Desktop\Навчання\Аналіз вимог до програмного забезпечення\Командний проект\Internet-Store-Engine\Internet-Store-Engine.UI\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\Yaros\.nuget\packages\nlog.config\4.7.15\contentFiles\any\any\NLog.config" />
   </ItemGroup>
 
 </Project>

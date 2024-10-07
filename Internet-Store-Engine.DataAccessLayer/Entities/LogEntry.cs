@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace InternetStoreEngine.DataAccessLayer.Entities
 {
-    public class Image: Base
+    public class LogEntry
     {
     }
 }
