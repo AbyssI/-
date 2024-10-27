@@ -87,12 +87,6 @@ namespace InternetStoreEngine.DataAccessLayer
                     .IsRequired()
                     .HasMaxLength(200);
 
-                entity.Property(p => p.Author)
-                    .HasMaxLength(100);
-
-                entity.Property(p => p.Genre)
-                    .HasMaxLength(100);
-
                 entity.Property(p => p.Price)
                     .IsRequired();
 
