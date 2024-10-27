@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace InternetStoreEngine.DataAccessLayer.Entities
+﻿namespace InternetStoreEngine.DataAccessLayer.Entities
 {
-    public class Image: Base
+    public class Image : Base
     {
+        public int ImageId { get; set; }
+        public string? Name { get; set; }
+        public string? Picture { get; set; }
+
+        public virtual Product? Products { get; set; }
     }
 }
