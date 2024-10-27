@@ -63,4 +63,12 @@
     <None Remove="C:\Users\Yaros\.nuget\packages\nlog.config\4.7.15\contentFiles\any\any\NLog.config" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Internet-Store-Engine.DataAccessLayer\InternetStoreEngine.DataAccessLayer.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Data\" />
+  </ItemGroup>
+
 </Project>

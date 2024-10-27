@@ -2,10 +2,10 @@
 {
     public class Image : Base
     {
-        public int ImageId { get; set; }
         public string? Name { get; set; }
         public string? Picture { get; set; }
 
-        public virtual Product? Products { get; set; }
+        public int? ProductId { get; set; }
+        public virtual Product? Product { get; set; }
     }
 }
