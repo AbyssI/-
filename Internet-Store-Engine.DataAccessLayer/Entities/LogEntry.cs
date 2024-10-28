@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace InternetStoreEngine.DataAccessLayer.Entities
+﻿namespace InternetStoreEngine.DataAccessLayer.Entities
 {
-    public class LogEntry
+    public class LogEntry : Base
     {
+        public string? Message { get; set; }
+        public string? Level { get; set; }
+        public string? Logger { get; set; }
+        public string? Callsite { get; set; }
+        public DateTime? LogTime { get; set; }
     }
 }
